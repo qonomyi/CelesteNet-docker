@@ -1,4 +1,4 @@
-# CelesteNet-docker
+# CelesteNet-Docker
 
 Run CelesteNet with Docker
 
