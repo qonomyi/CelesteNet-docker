@@ -1,0 +1,6 @@
+_CelesteNet
+lib-stripped/*
+
+persist/Content/*
+persist/ModuleConfigs/*
+persist/celestenet-config.yaml

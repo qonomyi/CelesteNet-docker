@@ -1,0 +1,11 @@
+services:
+  celestenet:
+    build: .
+    ports:
+      - "17232:17232" # Frontend
+      - "17230:17230" # Server
+    volumes:
+      - "./persist/ModuleConfigs/:/app/ModuleConfigs"
+      - "./persist/Content/:/app/Content"
+      - "./persist/:/app/persist"
+    restart: unless-stopped

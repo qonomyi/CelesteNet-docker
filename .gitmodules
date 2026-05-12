@@ -1,0 +1,3 @@
+[submodule "CelesteNet"]
+	path = CelesteNet
+	url = https://github.com/0x0ade/CelesteNet
